@@ -1,0 +1,191 @@
+/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+#cssmenu {
+  zoom: 1;
+  width: auto;
+  background: #000000;
+  padding: 8px 0;
+}
+#cssmenu:before {
+  content: '';
+  display: block;
+}
+#cssmenu:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu ul {
+  list-style-type: none;
+  position: relative;
+  display: block;
+  font-size: 12px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #7ab900;
+  zoom: 1;
+}
+#cssmenu ul:before {
+  content: '';
+  display: block;
+}
+#cssmenu ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu li a {
+  float: left;
+  color: #A79787;
+  text-decoration: none;
+  height: 24px;
+  padding: 9px 15px 0;
+  font-weight: normal;
+}
+#cssmenu li:hover,
+#cssmenu .active {
+  text-decoration: none;
+  border-bottom: 2px solid #7ab900;
+}
+#cssmenu li:hover a {
+  color: #fff;
+}
+#cssmenu .active a {
+  color: #fff;
+  font-weight: 700;
+}
+
+html { 
+  background: url(../img/fondo.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+body{
+  height: 100%;
+}
+#base{
+  display: block;
+  width: 70%;
+  height: 100%;
+  margin: 0px auto 0;
+  background: #FFF;
+}
+.listado table{
+  margin: 50px auto 0;
+}
+.listado td {
+  border: 1.8px solid #2C6700;
+  padding: 2px 3px;
+}
+.listado p{
+  text-align: center;
+}
+.listado h1{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  color: #7ab900;
+  text-align: center;
+}
+.listado h2{
+  font-family: Arial;
+  font-size: 15px;
+  text-align: right;
+  margin: 0 80px;
+}
+#link{
+  display: block;
+  width: 50px;
+  text-align: center;
+  float: right;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #FFF;
+  margin: 0 2px;
+  background: #7ab900;
+}
+#link2{
+  display: block;
+  width: 250px;
+  text-align: center;
+  float: right;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #FFF;
+  margin: 0 2px;
+  background: #7ab900;
+}
+.trh{
+  font-family: Arial;
+  font-weight: bold;
+  color: #FFF;
+  background: #7ABA7A;
+}
+.tr1{
+  background: #CFB;
+}
+.mantenimiento table{
+  margin: 0 auto;
+}
+.mantenimiento td{
+  padding: 2px 0;
+}
+.mantenimiento button{
+  font-weight: bold;
+  padding: 2px;
+  color: #FFF;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 5px;
+  background: #7ab900;
+}
+.mantenimiento h1{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  color: #7ab900;
+  text-align: center;
+}
+.mantenimiento p{
+  text-align: center;
+}
+.mantenimiento option{
+  width: 121px;
+}
+.marg{
+  margin: 0px 10px;
+}
+.inicio h1{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  color: #7ab900;
+  text-align: center;
+}
+.inicio p{
+  font-family: Arial;
+  text-align: justify;
+}
+#text-index{
+  margin: 50px 0 0 50px;
+  width: 840px;
+  float: left;
+}
+#foto{
+  display: block;
+  width: 250px;
+  height: 166px;
+  margin: 250px auto 0;
+  background: url(../img/brasil.jpg);
+}
